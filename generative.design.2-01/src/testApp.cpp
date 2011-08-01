@@ -18,10 +18,10 @@ void testApp::setup(){
 //--------------------------------------------------------------
 void testApp::update(){
 	// resolution depends on mouse x position
-	resolution = 30.0 / ofGetWidth() * mouseX + 3;
+	resolution = ofMap( mouseX + 3, 0, ofGetWidth(), 3, 30 );
 	angle = 360.0 / static_cast<float>( resolution );
 	// and the radius on mouse y position
-	radius = static_cast<float>( ofGetHeight() / 2 ) / ofGetHeight() * mouseY;
+	radius = ofMap( mouseY, 0, ofGetHeight(), 0, ofGetHeight() / 2 );
 }
 
 //--------------------------------------------------------------

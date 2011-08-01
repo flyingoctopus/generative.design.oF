@@ -14,7 +14,7 @@ void testApp::update(){
 void testApp::draw(){
 	// This calculation gives you a value between 0 and 360.
 	// The value depens on the horizontal position of the mouse.
-	float hue = 255.0 / ofGetWidth() * mouseX;
+	float hue = ofMap( mouseX, 0, ofGetWidth(), 0, 255 );
 	color.setHue( hue );
 
 	// This draws you a nice rectangle starting in the top left corner

@@ -1,6 +1,9 @@
 #generative design with openFrameworks#
+* * *
 
-###Colors###
+Some comments are in the code.
+
+###Chapter 01: Colors###
 
 - *__01__*: Two rectangles in contrast hue. Color and size change with mouse position.
 - *__02__*: Draw a HS(b) grid on the screen that changes according to mouse position.

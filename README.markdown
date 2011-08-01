@@ -1,7 +1,9 @@
 #generative design with openFrameworks#
 * * *
 
-Some comments are in the code.
+The examples are take from the book "Generative Gestaltung". They have a great website at http://www.generative-gestaltung.de. It's a book that focuses on generative design, that's design made by code. They work with processing. So lots of thanks goes to the authors and the processing community.
+
+This mini projects are made with openFrameworks. I'm looking forward to your comments since I'm learning C++.
 
 ###Chapter 01: Colors###
 
@@ -10,3 +12,8 @@ Some comments are in the code.
 - *__03__*: Draw a HSB color wheel. Numbers 1 - 5 change segments.
 - *__04__*: Pulls colors from an image and lets you sort the colors after HSB with keys 'H', 'S' & 'B'. Load three different images with keys 'Q', 'W' & 'E' and furthermore change grid accuracy with keys 1 - 9. Use key 0 on faster computer.
 - *__05__*: Generates colors scheme. Generate different color scheme with colors 1 - 3.
+
+
+###Chapter 02: Form###
+
+- *__01__*: A shape (from triangle to circle) is drawn according to mouse position. Reset canvas with 'R'.

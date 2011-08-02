@@ -5,6 +5,8 @@ The examples are take from the book "Generative Gestaltung". They have a great w
 
 This mini projects are made with openFrameworks. I'm looking forward to your comments since I'm learning C++.
 
+To use with openFrameworks 0.7. Get the latest from the git repo: https://github.com/openframeworks/openFrameworks
+
 ###Chapter 01: Colors###
 
 - *__01__*: Two rectangles in contrast hue. Color and size change with mouse position.

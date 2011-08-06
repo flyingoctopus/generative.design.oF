@@ -20,4 +20,5 @@ To use with openFrameworks 0.7. Get the latest from the git repo: https://github
 
 - *__01__*: A shape (from triangle to circle) is drawn according to mouse position. Reset canvas with 'R'.
 - *__02__*: Draws a kind of maze. Change linecap with 'C' and reset canvas with 'R'.
+- *__03__*: Draws circles or rectangles in a grid while their position randomize depending on the mouse position. Change between circles or rectangles with 'C' & 'R'.
 - *__05__*: "Stupid agents" crawling around the canvas and leaving a trace. Reset with 'R'.
